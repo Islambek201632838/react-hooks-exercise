@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    border: 1px solid black;
+    padding: 40px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(31, 13, 48);
+}
+
+.username, .password {
+    margin-bottom: 15px;
+    border-radius: 10px;
+    width: 400px;
+    height: 25px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.button {
+    background-color: blueviolet;
+    width: 150px;
+    height: 40px;
+    font-size: 20px; 
+}
+
